@@ -1,4 +1,4 @@
-<div align="center" style="padding-bottom: 30px">
+<div align="center" style="padding-block: 40px">
   <a href="https://systematize.design/" target="_blank">
     <img alt="Spiral Logo" width="180" src="./images/Spiral.svg"/>
   </a>
