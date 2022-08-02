@@ -1,0 +1,25 @@
+{
+    "name": "spiral-monorepo",
+    "description": "Spiral Vue Monorepo.",
+    "license": "MIT",
+    "author": "Cladonia Design Team",
+    "private": true,
+    "scripts": {},
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.3",
+        "@commitlint/config-conventional": "^17.0.3",
+        "eslint": "^8.21.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "prettier": "^2.7.1",
+        "stylelint": "^14.9.1",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^26.0.0",
+        "stylelint-order": "^5.0.0",
+        "typescript": "^4.7.4"
+    }
+}
