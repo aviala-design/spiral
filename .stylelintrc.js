@@ -5,7 +5,7 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   defaultSeverity: 'warning',
-  plugins: ['stylelint-order'],
+  plugins: ['stylelint-order', 'stylelint-less'],
   rules: {
     'at-rule-no-unknown': [
       true,
@@ -26,4 +26,4 @@ module.exports = {
       },
     ],
   },
-};
+}

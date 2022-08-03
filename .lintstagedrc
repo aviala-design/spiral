@@ -1,8 +1,17 @@
 {
-  "*.js": "eslint --fix",
-  "*.ts": "eslint --fix",
-  "*.jsx": "eslint --fix",
-  "*.tsx": "eslint --fix",
-  "*.vue": "eslint --fix",
-  "*.css": "stylelint --fix"
+  "*": [
+    "prettier --write --cache --ignore-unknown"
+  ],
+  "packages/*/**.{css,less}": [
+    "stylelint --fix"
+  ],
+  "packages/*/{src,types}/**/*.ts": [
+    "eslint --cache --fix"
+  ],
+  "packages/**/*.d.ts": [
+    "eslint --cache --fix"
+  ],
+  "playground/**/__tests__/**/*.ts": [
+    "eslint --cache --fix"
+  ]
 }
