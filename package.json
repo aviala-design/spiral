@@ -4,14 +4,23 @@
     "license": "MIT",
     "author": "Cladonia Design Team",
     "private": true,
-    "scripts": {},
+    "scripts": {
+        "postinstall": "husky install",
+        "lint:commit": "commitlint",
+        "lint:staged": "lint-staged"
+    },
     "workspaces": [
         "packages/*"
     ],
     "devDependencies": {
         "@commitlint/cli": "^17.0.3",
         "@commitlint/config-conventional": "^17.0.3",
+        "@typescript-eslint/eslint-plugin": "^5.32.0",
+        "@typescript-eslint/parser": "^5.32.0",
         "eslint": "^8.21.0",
+        "eslint-config-xo": "^0.41.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.3.0",
         "husky": "^8.0.1",
         "lint-staged": "^13.0.3",
         "prettier": "^2.7.1",
